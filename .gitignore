@@ -1,0 +1,14 @@
+.vscode
+.env
+
+__pycache__
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.synctex.gz
+*.xdv
+*.dvi
+*.toc
