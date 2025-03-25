@@ -1,6 +1,6 @@
 \documentclass[10pt]{book}
-
 \usepackage[a5paper, left=1.5cm, top=1.5cm, right=1.5cm, bottom=1.5cm]{geometry}
+\bibliographystyle{plain}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1,T2A]{fontenc}
@@ -15,16 +15,22 @@
 
 \begin{document}
 
-\begin{titlepage}
-\begin{center}
-\begin{spacing}{2.5}
-{\huge\bfseries Введение в Python \\ для разработки комплексов математических программ}
-{\Large\bfseries Пановский В.Н.}\\[5pt]
-\end{spacing}
-\end{center}
-\end{titlepage}
+% \begin{titlepage}
+% \begin{center}
+% \begin{spacing}{2.5}
+% {\huge\bfseries Введение в Python \\ для разработки комплексов математических программ}
+% {\Large\bfseries Пановский В.Н.}\\[5pt]
+% \end{spacing}
+% \end{center}
+% \end{titlepage}
+
+\LaTeX
 
 Hello, World!
+Hello, World!
+Hello, World!
+
+\cite{Nobody06}
 
 % \tableofcontents{}
 % \input{./01_00_introduction.tex}
@@ -33,4 +39,8 @@ Hello, World!
 % \input{./04_00_syntax.tex}
 % \input{./05_00_functions.tex}
 % \input{./06_00_oop.tex}
+
+
+\bibliography{references}
+
 \end{document}
