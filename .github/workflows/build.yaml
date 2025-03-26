@@ -15,7 +15,7 @@ jobs:
       - name: Commit pdf
         run: |
           git config --local user.name "github_workflow"
-          git add book.pdf
+          git add -f book.pdf
           git commit -m "automatic pdf generation"
       - name: Push changes
         uses: ad-m/github-push-action@master
